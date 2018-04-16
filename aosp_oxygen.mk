@@ -16,7 +16,7 @@
 
 $(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common AEX stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Include Bootanimation configuration
