@@ -10,6 +10,11 @@
     "repository":  "eva0034/android_vendor_xiaomi_oxygen",
     "target_path": "vendor/xiaomi/oxygen",
     "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "cm-14.1"
   }
-    
-]  
+]
