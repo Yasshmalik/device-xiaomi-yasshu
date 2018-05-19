@@ -1,0 +1,27 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "eva0034/device_xiaomi_msm8953-common",
+    "target_path": "device/xiaomi/msm8953-common",
+    "branch": "8.1.x"
+  },
+  {
+    "remote":      "github",
+    "repository":  "eva0034/kernel_xiaomi_oxygen",
+    "target_path": "kernel/xiaomi/msm8953",
+    "branch":      "8.1.x"
+  },
+  {
+    "remote":      "github",
+    "repository":  "eva0034/vendor_xiaomi_oxygen",
+    "target_path": "vendor/xiaomi",
+    "branch": "8.1.x"
+  },
+  {
+    "remote":      "los",
+    "repository":  "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "lineage-15.1"
+  }
+]
+
