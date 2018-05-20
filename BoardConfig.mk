@@ -18,9 +18,6 @@
 
 DEVICE_PATH := device/xiaomi/oxygen
 
-#Extended Filesystem Support
-TARGET_EXFAT_DRIVER := sdfat
-
 # Kernel
 TARGET_KERNEL_CONFIG := aosp_oxygen_defconfig
 
@@ -36,9 +33,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 872415232
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
-
-# Enable real time lockscreen charging current values
-BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
