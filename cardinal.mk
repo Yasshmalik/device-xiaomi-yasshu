@@ -16,19 +16,23 @@
 
 $(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Cardinal stuff.
+$(call inherit-product, vendor/cardinal/common.mk)
 
 # Include Bootanimation configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_oxygen
+PRODUCT_NAME := cardinal_oxygen
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="oxygen-user 7.1.1 NMF26F 8.1.11 release-keys"
+    PRIVATE_BUILD_DESC="oxygen-user 7.1.1 NMF26F V9.2.1.0.NDDMIEK release-keys"
+
+# MAINTAINER
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.cardinal.maintainer=John EVANS
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Xiaomi/oxygen/oxygen:7.1.1/NMF26F/8.1.11:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/oxygen/oxygen:7.1.1/NMF26F/V9.2.1.0.NDDMIEK:user/release-keys"
