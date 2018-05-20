@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_oxygen.mk
+    $(LOCAL_DIR)/cardinal.mk
